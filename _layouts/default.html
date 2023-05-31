@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="/_layouts/style.css"}}">
   </head>
   <body>
-    <img src="{{site.logo | relative_url}}" alt="Logo" />
+    {% include blue1 max-width="150px" file="./img/portfolio/blue1.png" alt="logo" caption="blue caption" %}
+    <img src="{{site.logo}}" alt="Logo" />
     <nav>
       <a href="/">Home</a>
+      <a href="/about">About</a>
       <a href="/blog/">Blog</a>
     </nav>
     <h1>{{ page.title }}</h1>

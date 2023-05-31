@@ -8,13 +8,13 @@ source = "/"
 lsi = false
 safe = true
 incremental = false
-logo = "/img/portfolio/blue1.png" 
+logo = "./img/portfolio/blue1.png" 
 
 [site]
   title = "Some Testing Website"
   description = ""
   theme = "minimal"
-  logo = "/img/portfolio/blue1.png" 
+  logo = "./img/portfolio/blue1.png" 
 
 
 [Author]
