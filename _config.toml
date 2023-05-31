@@ -1,7 +1,7 @@
 baseURL = "https://mir7b.github.io/"
 url = "https://mir7b.github.io/"
 DefaultContentLanguage = "en"
-title = "Testing website"
+title = "Some Testing Website"
 description = ""
 theme = "minimal"
 source = "/"
@@ -9,6 +9,13 @@ lsi = false
 safe = true
 incremental = false
 logo = "/img/portfolio/blue1.png" 
+
+[site]
+  title = "Some Testing Website"
+  description = ""
+  theme = "minimal"
+  logo = "/img/portfolio/blue1.png" 
+
 
 [Author]
   name = "L"

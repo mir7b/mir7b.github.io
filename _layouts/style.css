@@ -1,4 +1,7 @@
----
----
-
-@import "jekyll-theme-minimal";
+body {
+    background-color: #94a3aa;
+    padding:50px;
+    font: 14px/1.5 "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#727272;
+    font-weight:400;
+}
