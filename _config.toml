@@ -8,7 +8,7 @@ source = "/"
 lsi = false
 safe = true
 incremental = false
-logo = "img/portfolio/blue1.png" 
+logo = "/img/portfolio/blue1.png" 
 
 [Author]
   name = "L"
