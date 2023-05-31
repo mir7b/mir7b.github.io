@@ -1,5 +1,5 @@
 baseURL = "https://mir7b.github.io/"
-url = baseURL
+url = "https://mir7b.github.io/"
 DefaultContentLanguage = "en"
 title = "Testing website"
 description = ""
@@ -9,6 +9,7 @@ lsi = false
 safe = true
 incremental = false
 meta_author = "TBA"
+disqus_shortname = "Lara"
 
 [gist]
   noscript = false
