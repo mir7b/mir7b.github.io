@@ -10,6 +10,6 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-logo: /img/portfolio/logo
+logo: /img/portfolio/blue1.png
 description: no idea
 theme: jekyll-theme-minimal
