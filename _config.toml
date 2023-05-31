@@ -6,7 +6,6 @@ source = "/"
 lsi = false
 safe = true
 incremental = false
-highlighter = rouge
 [gist]
   noscript = false
 [kramdown]
