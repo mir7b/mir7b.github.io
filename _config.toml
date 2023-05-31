@@ -8,14 +8,7 @@ source = "/"
 lsi = false
 safe = true
 incremental = false
-logo = "./img/portfolio/blue1.png" 
-
-[site]
-  title = "Some Testing Website"
-  description = ""
-  theme = "minimal"
-  logo = "./img/portfolio/blue1.png" 
-
+logo = "/img/portfolio/blue1.png" 
 
 [Author]
   name = "L"
@@ -31,4 +24,8 @@ logo = "./img/portfolio/blue1.png"
   math_engine = "mathjax"
   highlight_style = "github-gist"
   subtitle = "testing stuff"
+  title = "Some Testing Website"
+  theme = "minimal"
+  logo = "/img/portfolio/blue1.png" 
+
   
