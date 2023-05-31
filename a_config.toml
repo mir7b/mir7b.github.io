@@ -2,6 +2,3 @@ baseURL = "https://mir7b.github.io/"
 title = "Research things and stuff"
 theme = "minimal"
 logo = "/img/portfolio/blue1.png" 
-highlight = true
-math_engine = "mathjax"
-highlight_style = "github-gist"
