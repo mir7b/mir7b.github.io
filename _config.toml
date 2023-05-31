@@ -3,7 +3,7 @@ url = "https://mir7b.github.io/"
 DefaultContentLanguage = "en"
 title = "Testing website"
 description = ""
-theme = "Freelancer"
+theme = "SampleTheme"
 source = "/"
 lsi = false
 safe = true
@@ -11,11 +11,9 @@ incremental = false
 
 [Author]
   name = "L"
-  github = "mir7b"
   meta_author = "L"
   disqus_shortname = "L"
-
-
+  
 [gist]
   noscript = false
 
@@ -24,15 +22,5 @@ incremental = false
   highlight = true
   math_engine = "mathjax"
   highlight_style = "github-gist"
-  subtitle = "R and whatever else"
+  subtitle = "testing stuff"
   logo = "img/portfolio/blue1.png" 
-  dateFormat = "2 Jan 2006"
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = true
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = true
-
-
