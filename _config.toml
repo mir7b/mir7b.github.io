@@ -1,22 +1,7 @@
 baseURL = "https://mir7b.github.io/"
-url = "https://mir7b.github.io/"
-DefaultContentLanguage = "en"
-title = "Some Testing Website"
-description = ""
+title = "Research things and stuff"
 theme = "minimal"
-source = "/"
-lsi = false
-safe = true
-incremental = false
 logo = "/img/portfolio/blue1.png" 
-
-[gist]
-  noscript = false
-
-[Params]
-  description = "no idea"
-  highlight = true
-  math_engine = "mathjax"
-  highlight_style = "github-gist"
-
-  
+highlight = true
+math_engine = "mathjax"
+highlight_style = "github-gist"
