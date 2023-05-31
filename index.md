@@ -4,9 +4,9 @@ layout: default
 
 <div class="wrapper">
     <header><nav><ul class="navig">
-        <a href="/">Home</a>
-        <a href="/about.md">About</a>
-        <a href="/blog/">Blog</a>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.md">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
     </ul></nav></header>
 </div>
 
