@@ -8,8 +8,12 @@ source = "/"
 lsi = false
 safe = true
 incremental = false
-meta_author = "TBA"
-disqus_shortname = "Lara"
+[Author]
+  name = "L"
+  github = "mir7b"
+  meta_author = "L"
+  disqus_shortname = "L"
+
 
 [gist]
   noscript = false
