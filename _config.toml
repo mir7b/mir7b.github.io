@@ -8,6 +8,7 @@ source = "/"
 lsi = false
 safe = true
 incremental = false
+logo = "img/portfolio/blue1.png" 
 
 [Author]
   name = "L"
@@ -18,9 +19,9 @@ incremental = false
   noscript = false
 
 [Params]
-  description = ""
+  description = "no idea"
   highlight = true
   math_engine = "mathjax"
   highlight_style = "github-gist"
   subtitle = "testing stuff"
-  logo = "img/portfolio/blue1.png" 
+  
