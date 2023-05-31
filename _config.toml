@@ -8,6 +8,7 @@ source = "/"
 lsi = false
 safe = true
 incremental = false
+
 [Author]
   name = "L"
   github = "mir7b"
@@ -23,5 +24,15 @@ incremental = false
   highlight = true
   math_engine = "mathjax"
   highlight_style = "github-gist"
+  subtitle = "R and whatever else"
+  logo = "img/portfolio/blue1.png" 
+  dateFormat = "2 Jan 2006"
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
 
 
