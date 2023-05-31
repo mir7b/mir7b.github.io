@@ -1,14 +1,17 @@
 baseURL = "https://mir7b.github.io/"
+url = baseURL
 DefaultContentLanguage = "en"
 title = "Testing website"
-theme = "beautifulhugo"
+description = ""
+theme = "Freelancer"
 source = "/"
 lsi = false
 safe = true
 incremental = false
+meta_author = "TBA"
+
 [gist]
   noscript = false
-
 
 [Params]
   description = ""
