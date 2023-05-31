@@ -15,12 +15,13 @@
 
       <ul class="navig">
         <li><a href="{{ "/" | absolute_url }}"><strong>Home</strong></a></li>
-        <li><a href="{{ "/about.md" | relative_url }}"><strong>About</strong></a></li>
-        <li><a href="{{ "/blogs.md" | relative_url  }}"><strong>Blog</strong></a></li>
+        <li><a href="{{ "/about/" | relative_url }}"><strong>About</strong></a></li>
+        <li><a href="{{ "/blogs/" | relative_url  }}"><strong>Blog</strong></a></li>
       </ul>
     </header>
     <section>
       {{ content }}
+      {{ site.logo }}
     </section>
     <footer>
       &copy; L
