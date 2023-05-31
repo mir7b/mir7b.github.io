@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/_layouts/style.css" | relative_url }}">
   </head>
   <body>
-     <div class="wrapper">
-      <header>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/about/">About</a>
-          <a href="/blog/">Blog</a>
-        </nav>
-       </header>
-    </div>
+    <header>
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+      {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+      {% endif %}
+
+      <ul class="navig">
+        <li><a href="{{ "/" | absolute_url }}"><strong>Home</strong></a></li>
+        <li><a href="{{ "/about.md" | relative_url }}"><strong>About</strong></a></li>
+        <li><a href="{{ "/blogs.md" | relative_url  }}"><strong>Blog</strong></a></li>
+      </ul>
+    </header>
     <section>
       {{ content }}
     </section>
