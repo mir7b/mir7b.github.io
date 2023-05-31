@@ -10,11 +10,6 @@ safe = true
 incremental = false
 logo = "/img/portfolio/blue1.png" 
 
-[Author]
-  name = "L"
-  meta_author = "L"
-  disqus_shortname = "L"
-  
 [gist]
   noscript = false
 
@@ -23,9 +18,5 @@ logo = "/img/portfolio/blue1.png"
   highlight = true
   math_engine = "mathjax"
   highlight_style = "github-gist"
-  subtitle = "testing stuff"
-  title = "Some Testing Website"
-  theme = "minimal"
-  logo = "/img/portfolio/blue1.png" 
 
   
